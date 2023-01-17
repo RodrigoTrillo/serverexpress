@@ -1,8 +1,15 @@
 export default class ProductManager {
     constructor() {
       this.products = [
-        {Producto: 1, Descripción: 1, Imagen: 1,}
-      ]; 
+          {Producto: 1, Descripción: 1, Imagen: 1,},
+          {Producto: 2, Descripción: 2, Imagen: 2,},
+          {Producto: 3, Descripción: 3, Imagen: 3,},
+          {Producto: 4, Descripción: 4, Imagen: 4,},
+          {Producto: 5, Descripción: 5, Imagen: 5,},
+          {Producto: 6, Descripción: 6, Imagen: 6,},
+          {Producto: 7, Descripción: 7, Imagen: 7,},
+          {Producto: 8, Descripción: 8, Imagen: 8,}
+    ]; 
     }
 
     generateUniqueId() {
